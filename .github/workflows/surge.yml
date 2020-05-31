@@ -31,5 +31,5 @@ jobs:
       run: |npm intall --global surge
       
     - name: Run Surge
-      run: surge ./Bootcamp2020Urdu.surge.sh --token ${{secrets.surge}}
+      run: surge ./Bootcamp2020Urdu.surge.sh --token ${{secrets.SURGE}}
         
